@@ -18,9 +18,10 @@ class Asset extends AssetBundle
      * {@inheritdoc}
      */
     public $css = [
-        'css/hyde.css',
         'css/pole.css',
         'css/syntax.css',
+        'css/hyde.css',
+        'http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface',
     ];
 
     public $js = [
