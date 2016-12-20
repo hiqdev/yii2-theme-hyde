@@ -1,6 +1,7 @@
 <?php
 
-use hiqdev\thememanager\menus\MainMenuInterface;
+use hiqdev\thememanager\menus\AbstractMainMenu;
+use hiqdev\thememanager\widgets\CopyrightYears;
 
 ?>
 <div class="sidebar">
@@ -12,11 +13,11 @@ use hiqdev\thememanager\menus\MainMenuInterface;
                 </a>
             </h1>
             <p class="lead">
-                <!-- site description -->
+                <?= isset(Yii::$app->params['site.description']) ? Yii::$app->params['site.description'] : '' ?>
             </p>
         </div>
 
-        <?= Yii::createObject(MainMenuInterface::class)->render([
+        <?= AbstractMainMenu::create()->render([
             'options' => [
                 'class' => 'sidebar-nav',
                 'tag' => 'nav',
@@ -28,7 +29,7 @@ use hiqdev\thememanager\menus\MainMenuInterface;
         ]) ?>
 
         <p>
-            &copy; <?= Yii::$app->themeManager->widget('CopyrightYears') ?> <?= Yii::$app->themeManager->widget('OrganizationLink') ?>.
+            &copy; <?= CopyrightYears::widget() ?>.
             <?= Yii::t('hiqdev:thememanager', 'All rights reserved.') ?>
         </p>
 
