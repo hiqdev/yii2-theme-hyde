@@ -17,7 +17,7 @@ use hiqdev\thememanager\widgets\CopyrightYears;
             </p>
         </div>
 
-        <?= AbstractMainMenu::create()->render([
+        <?= AbstractMainMenu::widget([], [
             'options' => [
                 'class' => 'sidebar-nav',
                 'tag' => 'nav',
