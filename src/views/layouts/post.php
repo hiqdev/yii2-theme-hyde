@@ -2,7 +2,7 @@
 
 <div class="post">
     <h1 class="post-title"><?= $this->title ?></h1>
-    <span class="post-date"><?= $this->params['date'] ?></span>
+    <span class="post-date"><?= Yii::$app->formatter->asDate($this->params['date']) ?></span>
     <?= $content ?>
 </div>
 
