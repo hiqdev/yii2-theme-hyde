@@ -12,7 +12,7 @@ namespace hiqdev\themes\hyde;
 class DetailedTheme extends \hiqdev\thememanager\DetailedTheme
 {
     /**
-     * @var array
+     * @var string
      */
-    public $type = ['blog'];
+    public $type = 'blog';
 }
