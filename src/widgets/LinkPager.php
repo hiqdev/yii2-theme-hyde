@@ -1,4 +1,12 @@
 <?php
+/**
+ * Hyde Theme for hiqdev/yii2-thememanager
+ *
+ * @link      https://github.com/hiqdev/yii2-theme-hyde
+ * @package   yii2-theme-hyde
+ * @license   BSD-3-Clause
+ * @copyright Copyright (c) 2016-2017, HiQDev (http://hiqdev.com/)
+ */
 
 namespace hiqdev\themes\hyde\widgets;
 
@@ -7,13 +15,13 @@ use yii\helpers\Html;
 
 class LinkPager extends \yii\widgets\LinkPager
 {
-    /** @inheritdoc */
+    /** {@inheritdoc} */
     public $prevPageCssClass = 'pagination-item newer';
 
-    /** @inheritdoc */
+    /** {@inheritdoc} */
     public $nextPageCssClass = 'pagination-item older';
 
-    /** @inheritdoc */
+    /** {@inheritdoc} */
     public function renderPageButtons()
     {
         $pageCount = $this->pagination->getPageCount();
@@ -43,7 +51,7 @@ class LinkPager extends \yii\widgets\LinkPager
         return Html::tag('div', implode("\n", $buttons), $this->options);
     }
 
-    /** @inheritdoc */
+    /** {@inheritdoc} */
     protected function renderPageButton($label, $page, $class, $disabled, $active)
     {
         $options = ['class' => empty($class) ? $this->pageCssClass : $class];
@@ -62,4 +70,3 @@ class LinkPager extends \yii\widgets\LinkPager
         return Html::a($label, $this->pagination->createUrl($page), $options);
     }
 }
-

@@ -5,7 +5,7 @@
  * @link      https://github.com/hiqdev/yii2-theme-hyde
  * @package   yii2-theme-hyde
  * @license   BSD-3-Clause
- * @copyright Copyright (c) 2016, HiQDev (http://hiqdev.com/)
+ * @copyright Copyright (c) 2016-2017, HiQDev (http://hiqdev.com/)
  */
 
 return [
