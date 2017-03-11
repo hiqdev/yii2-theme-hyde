@@ -2,10 +2,12 @@
 
 use hiqdev\thememanager\menus\AbstractMainMenu;
 use hiqdev\thememanager\widgets\CopyrightYears;
+use hiqdev\thememanager\widgets\LogoLink;
 
 ?>
 <div class="sidebar">
     <div class="container sidebar-sticky">
+        <?= LogoLink::widget() ?>
         <div class="sidebar-about">
             <h1>
                 <a href="/">
