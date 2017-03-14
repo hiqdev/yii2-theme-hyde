@@ -13,6 +13,8 @@ Yii2 Hyde Theme
 This package provides [Hyde theme](https://github.com/poole/hyde)
 for [Yii2 framework](http://yiiframework.com).
 
+[![Screenshot](https://f.cloud.github.com/assets/98681/1831228/42af6c6a-7384-11e3-98fb-e0b923ee0468.png)](https://github.com/poole/hyde)
+
 ## Installation
 
 The preferred way to install this yii2-extension is through [composer](http://getcomposer.org/download/).
