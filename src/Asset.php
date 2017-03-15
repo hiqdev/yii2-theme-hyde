@@ -29,7 +29,7 @@ class Asset extends AssetBundle
         'css/poole.css',
         'css/syntax.css',
         'css/hyde.css',
-        'http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface',
+        '//fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface',
     ];
 
     public $js = [
