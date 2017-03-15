@@ -1,5 +1,4 @@
-Yii2 Hyde Theme
-===============
+# Yii2 Hyde Theme
 
 **Hyde Theme for hiqdev/yii2-thememanager**
 
