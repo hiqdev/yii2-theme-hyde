@@ -13,6 +13,8 @@
     <?= $content ?>
 </div>
 
+<?= $this->render('//layouts/_after_footer') ?>
+
 <?php $this->endBody() ?>
 </body>
 </html>
