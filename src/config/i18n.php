@@ -1,6 +1,6 @@
 <?php
 /**
- * Hyde Theme for hiqdev/yii2-thememanager
+ * Hyde Theme for hiqdev/yii2-thememanager.
  *
  * @link      https://github.com/hiqdev/yii2-theme-hyde
  * @package   yii2-theme-hyde
