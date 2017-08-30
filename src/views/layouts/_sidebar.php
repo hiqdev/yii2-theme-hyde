@@ -32,7 +32,7 @@ use hiqdev\thememanager\widgets\LogoLink;
 
         <p>
             &copy; <?= CopyrightYears::widget() ?>.
-            <?= Yii::t('hiqdev:thememanager', 'All rights reserved.') ?>
+            <?= Yii::t('hiqdev.thememanager', 'All rights reserved.') ?>
         </p>
 
     </div>
